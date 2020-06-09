@@ -13,5 +13,5 @@ addons:
   postgresql: "9.6"
 
 script:
- - sleep 5
+ - sleep 300
  - "bundle exec rake db:create"
